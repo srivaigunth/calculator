@@ -1,0 +1,23 @@
+{
+  "short_name": "Calculator",
+  "name": "Retro Calculator App",
+  "icons": [
+    {
+      "src": "logo192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#0f3460",
+  "description": "A retro-themed calculator app with dark mode.",
+  "orientation": "portrait",
+  "prefer_related_applications": false
+}

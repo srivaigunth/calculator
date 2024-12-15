@@ -1,0 +1,35 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set body styling */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #1a1a2e; /* Dark background for the whole app */
+  color: #e0e0e0; /* Light text color */
+}
+
+/* Remove default list and link styles */
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Add a smooth transition for buttons and interactive elements */
+button {
+  transition: all 0.3s ease;
+}
+
+/* Set a global max-width for better layout on larger screens */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
